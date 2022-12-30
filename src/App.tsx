@@ -10,7 +10,6 @@ function App() {
               <People />
           </div>
       </Provider>
-
   )
 }
 

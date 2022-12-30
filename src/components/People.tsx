@@ -24,7 +24,7 @@ const People = () => {
             {filterPeople.map(({name, id}) => (
                 <div key={id}>{name}</div>
             ))}
-            <button onClick={() => dispatch(filterByValue("Ta"))}>Click me</button>
+            <button onClick={() => setQuery('')}>Clear</button>
         </>
     );
 }

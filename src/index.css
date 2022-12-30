@@ -68,3 +68,11 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+button {
+  margin-top: 24px;
+}
+
+input {
+  margin: 24px 0;
+}
